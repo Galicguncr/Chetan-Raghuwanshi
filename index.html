@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Chetan Raghuwanshi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5054e95f86.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span class="animate"></span> </h1>
+                <p>Open Source Enthusiast</p>
+
+            </div>
+        
+      </div>
+    </div>
+    <!----------------------------------------------about-------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>A passionate individual who is always thrive to work on end to end products which develop
+                        sustainable and scalable technical systems to create impact.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link " onclick="opentab ('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab ('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab ('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web apps interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web apps development</li>
+                            <li><span>App development</span><br>Android apps development</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br> Softwre Engineer at Tata Consultancy Service ltd. </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2018 - 2021</span><br>Btech from Acropolise Institute Indore</li>
+
+                        </ul>
+
+                    </div>
+                    <div class="btn btn2">
+                        <a href="cv.pdf" target="_blank"><button>Download Cv</button></a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------services------------------------------------------------------>
+    <div id="services"></div>
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Design</h2>
+                <p>Develop highly interactive Front end / User Interfaces for your web and mobile applications.</p>
+                <a href="Learn more">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p> Building responsive website front end using ReactJS and NextJs.</p>
+                <a href="Learn more">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>applications Design</h2>
+                <p>Designing highly attractive user interface for mobile and web applications</p>
+                <a href="Learn more">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+    <!----------------------------------------------portfolio---------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Doctor Assistance Application</h3>
+                        <p>The app help's to keep and maintain record of the patient. It was mainly maid for the small clinics
+                            as they were facing problem during covid.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>The Website provides information about the skills set of a person. And also about various experience
+                        in person's career.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3></h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="project.html" target="_blank"><button>Show More</button></a>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------------------Contact-------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle"> Contact Me</h1>
+                    <p><i class="fa-solid fa-at"></i> chetanbhayu1999@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Indore, India</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/c.h.e.t.a.n_r/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chetan-raghuwanshi-48454a25b"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                    </div>
+                    
+
+
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <div class="btn ">
+                        <a href="#" target="_blank"><button>Submit Message</button></a>
+                    </div>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><span> Developed by </span>Chetan Raghuwanshi</p>
+        </div>
+    </div>
+    <!--------------------------------------------java script code from here---------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-content');
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right="-135px";
+
+        }
+        function closemenu(){
+            sidemen.style.right = "-396px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxeuhqweMmITWZaf30T5nm_Yi86dOoE4aCQPbdRGmVHPsftZoHgSbutmlrKsstZJY4RLA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message received I'll get back to you soon"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed= new Typed(".animate", {
+            strings: ["Chetan"],
+            
+            backSpeed: 150,
+            typeSpeed: 150,
+            loop: true
+            
+
+        })
+    </script>
+
+</body>
+
+</html>
