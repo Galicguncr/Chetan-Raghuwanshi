@@ -502,16 +502,21 @@ nav .fa-solid{
         margin: 280px 80px;
     }
     .subtitle{
-         font-size: 40px;
+         font-size: 60px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
     .about-col-1 img {
-        width: 0% ;
-    }.about-col-2 p {
+        width: 100% ;
+        margin-left: 45px;
+    }
+    .about-col-2{
+    font-size: 22px;
+    }
+    .about-col-2 p {
         
-        font-size: 18px;
+        font-size: 24px;
     
     }
     .services-list{
