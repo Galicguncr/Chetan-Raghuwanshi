@@ -499,7 +499,8 @@ nav .fa-solid{
         font-size: 30px;
     }
     #about{
-        margin: 280px 80px;
+        margin-top: 180px;
+        margin-bottom: auto;
     }
     .subtitle{
          font-size: 60px;
