@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background: black;
+    background: rgb(15, 15, 15);
     color: #fff;
 }
 
@@ -549,6 +549,7 @@ nav .fa-solid{
     }
     .copyright{
         margin-left: 59px;
+        background-color: rgb(15, 15, 15);
     }
 
 
